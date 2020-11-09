@@ -13,7 +13,6 @@ public class PasswordCheck {
         do {
          String password = input.next();
         if (password.length() < 8) {
-          System.out.println("invalid");
         }
         for (int i = 0; i < password.length(); ++i) {
           if (Character.isDigit(password.charAt(i))) {
