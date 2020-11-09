@@ -34,7 +34,7 @@ public class PasswordCheck {
 
     } while (!Tony);
             
-          System.out.println("Password: valid!");
+          System.out.println("Password valid!");
 
       
         
